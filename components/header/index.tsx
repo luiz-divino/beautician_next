@@ -1,11 +1,6 @@
+import { navlinks } from "@/lib/services";
 import Link from "next/link";
 
-const navlinks = [
-  { label: "Serviços", href: "#services" },
-  { label: "Antes e Depois", href: "#result" },
-  { label: "Sobre mim", href: "#about" },
-  { label: "Serviços", href: "#services" },
-];
 
 export const Header = () => {
   return (
